@@ -2776,10 +2776,10 @@ video.responsive-video {
     white-space: nowrap;
   }
   #index-banner.parallax-container .parallax img{
-    -webkit-clip-path:circle(69.9% at 35% 33%); 
-    clip-path: circle(69.9% at 35% 33%); 
+    /* -webkit-clip-path:circle(69.9% at 35% 33%); 
+    clip-path: circle(69.9% at 35% 33%);  */
     bottom:0;
-    width: 100%;
+    width: 80%;
     height: auto;
     } 
 }
@@ -5259,7 +5259,7 @@ small {
 
 .btn, .btn-large, .btn-small {
   text-decoration: none;
-  color: #fff;
+  color: rgb(14, 13, 13);
   background-color: #26a69a;
   text-align: center;
   letter-spacing: .5px;
@@ -9167,19 +9167,19 @@ footer  a i.material-icons, footer .demo-icon, #herramientas i{
 .icon-linkedin:before { content: '\f318'; } /* '' */
 
 .parallax-container .parallax img{
-  -webkit-clip-path: circle(69.9% at 35% 33%);
-clip-path: circle(69.9% at 35% 33%);
+  /* -webkit-clip-path: circle(69.9% at 35% 33%); */
+  /* clip-path: circle(69.9% at 35% 33%); */
   bottom: -50px;
 }
 
 #sobre-mi img{
   -webkit-clip-path: circle(42.8% at 48% 49%);
-clip-path: circle(42.8% at 48% 49%);
+ clip-path: circle(42.8% at 48% 49%); 
 }
 
 .index-banner .parallax{
-  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 86%, 0% 100%);
-  clip-path: polygon(0 0, 100% 0%, 100% 86%, 0% 100%);
+  /* -webkit-clip-path: polygon(0 0, 100% 0%, 100% 86%, 0% 100%); */
+  /* clip-path: polygon(0 0, 100% 0%, 100% 86%, 0% 100%); */
 }
 
 #sobre-mi img{
